@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forgot Password</title>
     <link rel="stylesheet" href="/CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="/CSS/forgot-pass.css">
+    <link rel="stylesheet" href="/CSS/change-pwd.css">
     <script src="/JS/bootstrap.bundle.min.js"></script>
 </head>
 
@@ -68,16 +68,21 @@
                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
                         <form action="">
                             <div>
-                                <p class="text-center">Forgot Password</p>
-                                <p class="fs-2 text-center">Enter your email address you've using for your account below and we will send you a password reset link</p>
+                                <p class="text-center">New Password</p>
+                                <p class="fs-4 text-center">Please enter a new password in the fields below.</p>
                             </div>
                             <div class="mt-3">
-                                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="evan.donohue@gmail.com">
+                                <label class="form-label">New Password</label>
+                                <input type="password" class="form-control" id="newpwd1"
+                                    aria-describedby="emailHelp" placeholder="Enter new password">
                             </div>
                             <div class="mt-3">
-                                <input type="Submit" value="Reset my password" class="btn mt-3">
+                                <label class="form-label">Confirm New Password</label>
+                                <input type="password" class="form-control" id="cnfnewpwd1"
+                                    aria-describedby="emailHelp" placeholder="Confirm your new password">
+                            </div>
+                            <div class="mt-3">
+                                <input type="Submit" value="Change Password" class="btn mt-3">
                             </div>
                             <div class="text-center mt-2">
                                 <a href="/html/login-page.html" class="text-dark">Login</a>

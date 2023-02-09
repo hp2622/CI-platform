@@ -1,52 +1,55 @@
 .btn {
-    border: 2px solid #F88634;
-    border-radius: 24px;
-    width: 100%;
-    height: 10%;
-    background-color: #F8863400;
-    color: #F88634
+  border: 2px solid #f88634;
+  border-radius: 24px;
+  width: 100%;
+  height: 10%;
+  background-color: #f8863400;
+  color: #f88634;
 }
 
 .createaccount22 {
-    display: flex;
-    flex-direction: column;
-    display: none;
+  display: flex;
+  flex-direction: column;
+  display: none;
 }
 .w-100 {
-    filter: brightness(0.7);
+  filter: brightness(0.7);
 }
 
 .carousel-caption {
-    opacity: 0.5;
-    width: 100%;
-    left: 0;
-    bottom: 0;
+  opacity: 0.5;
+  width: 100%;
+  left: 0;
+  bottom: 0;
 }
-.carousel-item img{
- height: 100vh;
+.carousel-item img {
+  height: 100vh;
 }
-.col-lg-9{
-    height: 100vh;
+.col-lg-9 {
+  height: 100vh;
+  margin-top: 13rem;
 }
 
 span {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .bolder-text {
-    font-weight: bolder;
-    color: white;
-    font-size: xx-large;
+  font-weight: bolder;
+  color: white;
+  font-size: xx-large;
 }
 
 /* media query */
-@media screen and (min-width:768px) and (max-width:1309px) {
-   .span111{
+@media screen and (min-width: 768px) and (max-width: 1309px) {
+  .span111 {
     font-size: 5px;
-   }
-   .mt-2{
+  }
+  .mt-2 {
     margin-top: 0.6rem !important;
-   }
+  }
 
-
+  .col-lg-9 {
+    height: 100vh;
+  }
 }

@@ -7,6 +7,7 @@
   color: #f88634;
 }
 
+
 .createaccount22 {
   display: flex;
   flex-direction: column;
@@ -27,7 +28,8 @@
 }
 .col-lg-9 {
   height: 100vh;
-  margin-top: 13rem;
+  margin-top: 0rem;
+  padding-top: 10rem;
 }
 
 span {
